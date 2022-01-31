@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    background: linear-gradient(to right,#9b5de5,#f15bb5,#fee440,#00bbf9);
+    height: 100vh;
+    width: 100vw; 
+}
+#container{
+    top:23%;
+    bottom: 0;
+    left:35%;
+    height: 400px;
+    width: 400px;
+    border-radius: 20%;
+    position: absolute;
+    /*background: linear-gradient(to right,#f4e8c1,#a0c1b9,#70a0af,#706993); */
+     background: linear-gradient(to right,#f15bb5,#fee440);
+    /* background: linear-gradient(to right,#191d32,#282f44,#604e66,#ada8b6);  */
+    animation: bounce 1s ease-in-out infinite alternate;
+}
+#container img{
+    position:relative;
+    right: 10.8%;
+    bottom: 6%;
+}
+/*.title-word {
+    animation-name: color-animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  .title-word-1 {
+    --color-1: #ff0000;
+    --color-2: #aaff0d;
+    --color-3: #f2f53e;
+  }
+  
+  .title-word-2 {
+    --color-1: #000000;
+    --color-2: #911aa8;
+    --color-3: rgb(15, 172, 62);
+  }
+  
+  .title-word-3 {
+    --color-1: #002df7;
+    --color-2: #6e0646;
+    --color-3: #6e6701;
+  }
+  
+  .title-word-4 {
+    --color-1: #01031d;
+    --color-2: #f36011;
+    --color-3: #eed0da;
+  }
+  
+  @keyframes color-animation {
+    0%    {color: var(--color-1)}
+    32%   {color: var(--color-1)}
+    33%   {color: var(--color-2)}
+    65%   {color: var(--color-2)}
+    66%   {color: var(--color-3)}
+    99%   {color: var(--color-3)}
+    100%  {color: var(--color-1)}
+  }*/
+  .title {
+    margin: 0;
+     top: 85%;
+    /*bottom:90%;*/
+    left: 12%;
+    position: fixed;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    text-transform: uppercase;
+  }
+  @keyframes bounce{
+    from{
+      transform: translate(0px);
+    }
+    to{
+      transform: translatex(50px);
+    }
+    
+  }
+  p {
+    position: fixed;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+    letter-spacing: 2px;
+    left: 28%;
+    background: linear-gradient(90deg, #f28cfc, rgb(138, 187, 252), #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 5s infinite;
+  }
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
