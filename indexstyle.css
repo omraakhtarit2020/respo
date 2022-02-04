@@ -3,6 +3,7 @@ body{
     background: linear-gradient(to right,#9b5de5,#f15bb5,#fee440,#00bbf9);
     height: 100vh;
     width: 100vw; 
+    overflow-x:hidden;
 }
 #container{
     top:23%;
